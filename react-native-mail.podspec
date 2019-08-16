@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/chirag04/react-native-mail.git" }
   s.source_files = "RNMail/*.{h,m}"
-
+  s.author             = { "author" => "author@domain.cn" }
   s.dependency "React"
 end
